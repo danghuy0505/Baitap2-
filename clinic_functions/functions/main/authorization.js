@@ -17,6 +17,6 @@ exports.authorization= (req,res,next) =>{
       })
       .catch(error=>{
         console.error(error)
-        return res.status(401).json({unauthorized:" access denied!"})
+        return res.status(401).json({unauthorized:" access denied!"};)
       })
   })}
